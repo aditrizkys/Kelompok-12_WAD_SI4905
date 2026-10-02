@@ -1,0 +1,152 @@
+[
+    {
+        "id": "INV-001",
+        "jenis_kendaraan": "Forklift Diesel",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-011",
+        "nomor_seri": "FK-35D-2021-0891"
+    },
+    {
+        "id": "INV-002",
+        "jenis_kendaraan": "Pick-up Box",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-045",
+        "nomor_seri": "PU-L300-2019-4412"
+    },
+    {
+        "id": "INV-003",
+        "jenis_kendaraan": "Forklift Elektrik",
+        "nomor_dokumen_perawatan": "DOC-MNT-2024-002",
+        "nomor_seri": "FKE-18E-2022-0034"
+    },
+    {
+        "id": "INV-004",
+        "jenis_kendaraan": "Truk Engkel",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-108",
+        "nomor_seri": "TRK-FE71-2018-9102"
+    },
+    {
+        "id": "INV-005",
+        "jenis_kendaraan": "Pick-up Open Cargo",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-087",
+        "nomor_seri": "PU-GRM-2020-5521"
+    },
+    {
+        "id": "INV-006",
+        "jenis_kendaraan": "Mobil Operasional SUV",
+        "nomor_dokumen_perawatan": "DOC-MNT-2024-019",
+        "nomor_seri": "MO-ANF-2021-3310"
+    },
+    {
+        "id": "INV-007",
+        "jenis_kendaraan": "Reach Truck",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-062",
+        "nomor_seri": "RT-BT20-2020-1189"
+    },
+    {
+        "id": "INV-008",
+        "jenis_kendaraan": "Truk Blind Van",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-094",
+        "nomor_seri": "BV-APV-2019-7832"
+    },
+    {
+        "id": "INV-009",
+        "jenis_kendaraan": "Truk Tronton Box",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-115",
+        "nomor_seri": "TT-FL260-2017-0411"
+    },
+    {
+        "id": "INV-010",
+        "jenis_kendaraan": "Forklift LPG",
+        "nomor_dokumen_perawatan": "DOC-MNT-2024-005",
+        "nomor_seri": "FK-25G-2021-6604"
+    },
+    {
+        "id": "INV-011",
+        "jenis_kendaraan": "Pick-up Double Cabin",
+        "nomor_dokumen_perawatan": "DOC-MNT-2024-031",
+        "nomor_seri": "PU-DMX-2022-8910"
+    },
+    {
+        "id": "INV-012",
+        "jenis_kendaraan": "Tow Tractor",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-053",
+        "nomor_seri": "TT-TG30-2018-2290"
+    },
+    {
+        "id": "INV-013",
+        "jenis_kendaraan": "Mobil Operasional MPV",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-078",
+        "nomor_seri": "MO-AVZ-2020-4109"
+    },
+    {
+        "id": "INV-014",
+        "jenis_kendaraan": "Forklift Heavy Duty",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-120",
+        "nomor_seri": "FK-100D-2016-0102"
+    },
+    {
+        "id": "INV-015",
+        "jenis_kendaraan": "Truk Wingbox",
+        "nomor_dokumen_perawatan": "DOC-MNT-2024-012",
+        "nomor_seri": "WB-GXZ-2021-7721"
+    },
+    {
+        "id": "INV-016",
+        "jenis_kendaraan": "Hand Stacker Elektrik",
+        "nomor_dokumen_perawatan": "DOC-MNT-2024-040",
+        "nomor_seri": "HS-15E-2023-0051"
+    },
+    {
+        "id": "INV-017",
+        "jenis_kendaraan": "Pick-up Box",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-099",
+        "nomor_seri": "PU-L300-2021-4498"
+    },
+    {
+        "id": "INV-018",
+        "jenis_kendaraan": "Mobil Minibus Operasional",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-033",
+        "nomor_seri": "MO-HIC-2019-3388"
+    },
+    {
+        "id": "INV-019",
+        "jenis_kendaraan": "Forklift Diesel",
+        "nomor_dokumen_perawatan": "DOC-MNT-2024-022",
+        "nomor_seri": "FK-50D-2022-9012"
+    },
+    {
+        "id": "INV-020",
+        "jenis_kendaraan": "Truk Dump",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-142",
+        "nomor_seri": "DT-FM260-2018-6120"
+    },
+    {
+        "id": "INV-021",
+        "jenis_kendaraan": "Order Picker",
+        "nomor_dokumen_perawatan": "DOC-MNT-2024-008",
+        "nomor_seri": "OP-V10-2021-0983"
+    },
+    {
+        "id": "INV-022",
+        "jenis_kendaraan": "Pick-up Open Cargo",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-019",
+        "nomor_seri": "PU-CST-2017-1234"
+    },
+    {
+        "id": "INV-023",
+        "jenis_kendaraan": "Forklift Elektrik",
+        "nomor_dokumen_perawatan": "DOC-MNT-2024-051",
+        "nomor_seri": "FKE-25E-2023-0144"
+    },
+    {
+        "id": "INV-024",
+        "jenis_kendaraan": "Truk CDE Box",
+        "nomor_dokumen_perawatan": "DOC-MNT-2023-071",
+        "nomor_seri": "TRK-NK71-2020-8812"
+    },
+    {
+        "id": "INV-025",
+        "jenis_kendaraan": "Mobil Operasional Sedan",
+        "nomor_dokumen_perawatan": "DOC-MNT-2024-015",
+        "nomor_seri": "MO-ALT-2022-5001"
+    }
+]
