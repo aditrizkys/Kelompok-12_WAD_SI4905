@@ -1,4 +1,3 @@
-// Global State
 let allData = [];
 let filteredData = [];
 const rowsPerPage = 10;
@@ -18,7 +17,7 @@ function getDokumenText(item) {
   return item.nomor_dokumen_perawatan;
 }
 
-// 1. Fungsi Fetch Data dari JSON
+// Fetch Data
 function loadVehicleData() {
   const tableBody = document.getElementById('tableBody');
 
@@ -47,7 +46,7 @@ function loadVehicleData() {
     });
 }
 
-// 2. Fungsi Render Tabel
+// Render Tabel
 function renderTable() {
   const tableBody = document.getElementById('tableBody');
   const paginationNav = document.getElementById('pagination');
@@ -81,7 +80,7 @@ function renderTable() {
   renderPagination();
 }
 
-// 3. Fungsi Render Pagination
+// Pagination
 function renderPagination() {
   const paginationNav = document.getElementById('pagination');
   if (!paginationNav) return;
@@ -106,7 +105,7 @@ function renderPagination() {
   }
 }
 
-// 4. Fungsi Handling Search
+// Search Handling
 function handleSearch(query) {
   const keyword = query.toLowerCase().trim();
   
@@ -122,7 +121,7 @@ function handleSearch(query) {
   renderTable();
 }
 
-// 5. Inisialisasi Event Listener dan Panggilan Awal
+// Event Listener dan Panggilan Awal
 function initApp() {
   const searchInput = document.getElementById('searchInput');
   if (searchInput) {
@@ -131,7 +130,6 @@ function initApp() {
     });
   }
 
-  // Panggil data awal
   loadVehicleData();
 }
 
