@@ -8,6 +8,66 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
+
+$KS = $NP = $email = $NT = $AK = $kota = $prov = $pos "";
+$KSErr = $NPErr = $emailErr = $NTErr = $AKErr = $kotaErr = $provErr = $posErr "";
+
+if ($_SERVER["request_method"] == "post"){
+    $KS = trim($_POST["kode supplier"]);
+    if(empty($KS)){
+        $KSErr = "kode supplier wajib di isi!"
+    }
+}
+
+if ($_SERVER["request_method"] == "post"){
+    $NP = trim($_POST["kode supplier"]);
+    if(empty($NP)){
+        $NPErr = "kode supplier wajib di isi!"
+    }
+}
+
+if ($_SERVER["request_method"] == "post"){
+    $email = trim($_POST["kode supplier"]);
+    if(empty($email)){
+        $emailErr = "kode supplier wajib di isi!"
+    }
+}
+
+if ($_SERVER["request_method"] == "post"){
+    $NT = trim($_POST["kode supplier"]);
+    if(empty($NT)){
+        $NTErr = "kode supplier wajib di isi!"
+    }
+}
+
+if ($_SERVER["request_method"] == "post"){
+    $AK = trim($_POST["kode supplier"]);
+    if(empty($AK)){
+        $AKErr = "kode supplier wajib di isi!"
+    }
+}
+
+if ($_SERVER["request_method"] == "post"){
+    $kota = trim($_POST["kode supplier"]);
+    if(empty($kota)){
+        $kotaErr = "kode supplier wajib di isi!"
+    }
+}
+
+if ($_SERVER["request_method"] == "post"){
+    $prov = trim($_POST["kode supplier"]);
+    if(empty($prov)){
+        $provErr = "kode supplier wajib di isi!"
+    }
+}
+
+if ($_SERVER["request_method"] == "post"){
+    $pos = trim($_POST["kode supplier"]);
+    if(empty($pos)){
+        $posErr = "kode supplier wajib di isi!"
+    }
+}
+
 <body>
     <div class ="container mt-5">
         <h2>pengelolaan supplier</h2>
