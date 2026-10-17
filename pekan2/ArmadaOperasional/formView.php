@@ -1,0 +1,90 @@
+<?php
+require 'koneksi.php';
+require 'armadaModel.php';
+require 'armadaController.php';
+require 'index.php';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=d-flex, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+    <title>Tambah Armada</title>
+</head>
+<body>
+
+<!-- Sidebar -->
+
+</div>
+<nav class="main-menu">
+<div class="logo"></div>
+<div class="scrollbar" id="style-1">
+      
+<ul>
+  
+<li>                                   
+<a href="index.html">
+<i class="fa fa-home fa-lg"></i>
+<span class="nav-text">Armada</span>
+</a>
+</li>   
+   
+<li>                                 
+<a href="">
+<i class="fa fa-user fa-lg"></i>
+<span class="nav-text">Login</span>
+</a>
+</li>
+</ul>
+    
+</nav> 
+
+
+    <!-- Form -->
+<div class="card container border-0 shadow-sm rounded-4 p-4 justify-content-center">
+  <div class="p-3"></div>
+  <div class="p-3 flex-fill bg-light">
+    <form action="formView()" method="POST">
+
+<!-- No Seri Kendaraan -->
+ <h3 class="mb-3">Tambah Inventaris Armada</h3>
+  <div data-mdb-input-init class="form-outline mb-4">
+    <label class="form-label" for="form1Example1">No Seri Kendaraan</label>
+    <input type="text" id="form1Example1" class="form-control" value="<?=htmlspecialchars('') ?>">
+  </div>
+
+  <!-- Nama Kendaraan -->
+    <div data-mdb-input-init class="form-outline mb-4">
+      <label class="dokumen" for="form1Example2">Nama Kendaraan</label>
+      <input type="text" class="form-control" value="<?=htmlspecialchars('') ?>">
+  </div>
+
+  <!-- No Dokumen Perawatan -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <label class="dokumen" for="form1Example2">No Dokumen Perawatan</label>
+    <input type="text" class="form-control" value="<?=htmlspecialchars('') ?>">
+  </div>
+
+  <!-- 2 column grid layout for inline styling -->
+  <div class="row mb-4">
+    <div class="col d-flex justify-content-center">
+    </div>
+  </div>
+
+  <!-- Submit button -->
+   <?php
+
+   ?>
+  <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block">Tambah</form></button>
+</div>
+
+  
+</body>
+</html>
