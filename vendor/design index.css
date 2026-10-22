@@ -1,0 +1,48 @@
+
+/* Tampilan dasar halaman */
+body {
+    background-color: #f5f6fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Judul halaman */
+h2 {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Kartu profil supplier */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Bagian judul kartu */
+.card-header {
+    background-color: #ffffff;
+    padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* Bagian isi kartu */
+.card-body {
+    padding: 20px;
+}
+
+/* Label input */
+.form-label {
+    font-weight: 600;
+}
+
+/* Kotak input dan alamat */
+.form-control {
+    border-radius: 6px;
+}
+
+/* Tombol simpan */
+.btn-primary {
+    padding: 8px 25px;
+    border-radius: 6px;
+}
